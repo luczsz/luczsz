@@ -1,0 +1,203 @@
+body{
+  background: white;
+  margin: 0px;
+  font-family: Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+  color: white;
+}
+header{
+  background-color: #06024e;
+  color: #FFF;
+  font-family: Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+a{
+text-decoration: none;
+color: #FFF;
+margin: 10px;
+}
+a:hover{
+  color: #00FFC9;
+}
+.active{
+color: #FFF;
+}
+.banner{
+  align-items: center;
+  background-image: url('../img/wallpaper.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+  height: 100vh;
+  justify-content: center;
+}
+.banner>div{
+  text-align: center;
+}
+h1{
+  font-size: 3em;
+  margin: 1px;
+}
+.banner-h2{
+  color:#FFF;
+  font-size: 2em;
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 1px;
+}
+.banner>div>a{
+  border: 3px solid #00FFC9;
+  border-radius: 50px;
+  color: #00FFC9;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 44px;
+}
+.banner2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+  color: #000;
+  text-align: center;
+  padding-bottom: 0vh;
+}
+.icon-banner2{
+margin: 20px;
+}
+banner2>div>p{
+  text-align: center;
+  width: 80%;
+}
+h2{
+color: #06024e;
+font-size: 2em;
+font-family: Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+}
+.icon-banner2>div>p{
+font-size: 0.875em;
+}
+@media screen and (max-width: 800px){
+.banner2{
+  flex-direction: column;
+  padding-bottom: 5vh;
+}
+}
+.container-text{
+  background: linear-gradient(40deg, #8607FE, #8903FE, #DF909D);
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 40vw 50vw;
+  align-items: center;
+}
+.myimage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link1{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  background: #06024e;
+  border-radius: 20px;
+  font-size: 40px;
+}
+.text-link1{
+  font-size: 28px;
+}
+@media screen and (max-width: 800px){
+  .myimage{
+    width: 95%;
+    margin-top: -130px;
+  }
+  .text1{
+    font-size: 25px;
+  }
+  .link1{
+    color: white;
+    text-decoration: none;
+    padding: -2px;
+    background: #06024e;
+    border-radius: 20px;
+  }
+  .text-link1{
+    font-size: 17px;
+    margin-bottom: -10px;
+    color: red;
+  }
+  }
+.produtos{
+  text-align: center;
+  margin: 5vh auto 5vh auto;
+}
+.container-produtos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-produtos>div>p{
+  font-family: Roboto;
+}
+.card-p{
+  background: rgb(74, 60, 207);
+  color: #FFF;
+  margin: 20px;
+  width: 20vw;
+  border-radius: 15px;
+}
+.card-text{
+  margin: 20px 30px 20px 30px;
+  font-size: 0.875em;
+}
+.img-product{
+  height: 30vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-produto1{
+  background-image: url('https://conteudo.imguol.com.br/c/noticias/22/2020/12/18/produtos-tecnologicos-tecnologia-gadgets-1608319493528_v2_450x337.jpg');
+}
+.img-produto2{
+  background-image: url('https://www.lojassantaifigenia.com.br/blog/wp-content/uploads/2018/11/photo-1538474106696-5fbc90bce5d2-e1543493008291.jpg');
+}
+.img-produto3{
+  background-image: url('https://www.tecnoveste.com.br/wp-content/uploads/2018/03/analises-de-produtos-de-tecnologia-no-canal-do-tecnoveste-no-youtube.jpg');
+}
+.img-produto4{
+  background-image: url('https://www.tecnoveste.com.br/wp-content/uploads/2018/03/analises-de-produtos-de-tecnologia-no-canal-do-tecnoveste-no-youtube.jpg');
+}
+@media screen and (max-width: 800px){
+  .produtos{
+    text-align: center;
+    margin: 22vh;
+  }
+  .container-produtos{
+    margin-top: -120px;
+    flex-direction: column;
+  }
+  .card-p{
+    width: 90vw;
+  }
+  .img-product{
+    height: 50vw;
+  }
+}
+footer{
+  align-items: center;
+  background-color: #06024e;
+  color: #FFF;
+  display: flex;
+  font-family: Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+  justify-content: space-around;
+  padding: 15px;
+}
+.f-nav{
+    display: flex;
+    flex-direction: column;
+}
